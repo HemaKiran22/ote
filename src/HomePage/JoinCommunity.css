@@ -1,0 +1,41 @@
+/* src/JoinCommunity.css */
+.join-community {
+    background-color: #f0f0f0;
+    border-radius: 150px; /* Increase the border-radius for more rounded edges */
+    padding: 50px 50px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(178, 46, 46, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.join-community h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.join-community p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    max-width: 600px;
+}
+
+.signup-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #218838;
+}

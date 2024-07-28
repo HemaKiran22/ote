@@ -1,0 +1,79 @@
+.header {
+  background-image: linear-gradient(rgba(6, 12, 44, 0.5), rgba(46, 41, 41, 0.5)), url('http://thementorvista.liveblog365.com/wp-content/uploads/2024/05/pexels-photo-6326378.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 40px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li {
+  display: inline;
+}
+
+.header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.header nav ul li .login-button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header nav ul li .login-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-content {
+  text-align: center;
+  margin-top: 100px; /* Adjust based on your layout */
+}
+
+.hero-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  line-height: 1.2; /* Adjust the line-height to control the space between lines */
+}
+
+.learn-more-button {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px; /* Round edges */
+  text-decoration: none;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+  background-color: #218838;
+}
